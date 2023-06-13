@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif
+}
+
+#img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    box-shadow: 4px 7px 43px -10px rgba(29, 5, 5, 0.75);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+
+}
+
+nav span {
+    display: flex;
+    width: 60%;
+}
+
+.nav-list {
+    margin-left: 10%;
+    width: 80%;
+
+}
+
+.list-1 {
+    width: 8%;
+
+}
+
+.list-2 {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+#list-2 {
+    display: none;
+}
+.hero {
+    height: 100vh;
+  background-image: url(assets/bg.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hero-section {
+    color:rgb(241,233,230);
+    padding: 50px;
+    padding-top: 100px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .save p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .btn-1 {
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color: white;
+  }
+  
+  .btn-1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .btn-2 {
+    height: 40px;
+    width: 40%;
+    border: none;
+    background: none;
+    border: 1px solid black;
+  }
+  
+  .btn-2:hover {
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+  }
+  
+  .hero-section h1 {
+    font-size: 54px;
+    font-weight: 300;
+  }
+
+
+  /* section-2 */
+
+
+  .hero-1 {
+    height: 100vh;
+   background-image: url(bg2.webp);
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+  
+  .section-2 {
+    color:rgb(241,233,230);
+    padding: 50px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .img{
+    display: none;
+  }
+  
+  .ig p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .a1 {
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color: white;
+  }
+  
+  .a1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .a2{
+    height: 40px;
+    width: 40%;
+    border: none;
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .a2:hover {
+    background-color:gray;
+    border: none;
+    border: 1px solid black;
+  }
+  
+  .section-2 h1 {
+    font-size: 43px;
+    font-weight: 100;
+    /* margin-bottom: 130px; */
+  }
+  hr{
+    border: 1px solid gray;
+    margin-top: 5px;
+  }
+  .section-2 h3{
+     font-size:18px;
+     font-weight:250;
+     /* border: 2px solid blue; */
+     width:560px;
+     padding-top: 30px;
+  } 
+  /* section3 */
+
+
+  .hero-2 {
+    height: 100vh;
+  background-image: url(assets/bg4.webp);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .section-3 {
+    color:black;
+    padding: 50px;
+    padding-top: 100px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .ig-1 p {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .b1 {
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color:black;
+    color: white;
+  }
+  
+  .b1:hover {
+    background-color:white;
+    color:black;
+  }
+  
+  .b2 {
+    height: 40px;
+    width: 40%;
+    border: none;
+    background: none;
+    border: 1px solid black;
+  }
+  
+  .b2:hover {
+    background-color: white;
+    border: none;
+    border: 1px solid black;
+  }
+  .section-3 h1 {
+    font-size: 48px;
+    font-weight:250;
+    line-height:58px; 
+  }
+  
+@media (max-width :768px) {
+    .nav-list {
+        display: none;
+    }
+
+    .list-1 {
+        display: none;
+    }
+
+    .list-2 {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        width: 12%;
+    }
+
+    nav span {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu {
+        display: block;
+    }
+    .hero-section{
+      width: 100%;
+    }
+    /* .img{
+      display: block; 
+      width:70%;
+      height: 300px; 
+    }
+     */
+    .section-2{
+      width: 100%;
+     
+    }
+    .box{
+      display: flex;
+      flex-direction:column ;
+    }
+    /* .hero-1{
+      background: none; 
+    } */
+    /* .section-2{
+      color:ww;
+    } */
+}
